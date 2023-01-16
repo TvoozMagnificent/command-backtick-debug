@@ -1,0 +1,52 @@
+{
+  "title": "Command + ` ==> Command + F8",
+  "rules": [
+    {
+      "description": "Command + ` ==> Command + F8",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_gui"
+              ]
+            },
+            "key_code": "grave_accent_and_tilde"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "f8",
+              "modifiers": [
+                "left_gui",
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_gui"
+              ]
+            },
+            "key_code": "grave_accent_and_tilde"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "f8",
+              "modifiers": [
+                "right_gui",
+                "fn"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

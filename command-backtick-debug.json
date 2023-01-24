@@ -27,12 +27,6 @@
               "repeat": false,
               "key_code": "down_arrow"
             }
-          ],
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": ["^com.jetbrains.intellij.ce$"]
-            }
           ]
         }
       ]
